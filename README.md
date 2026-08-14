@@ -691,7 +691,7 @@ The read data is not considered valid when an error response is asserted.
 
 ## 📊 Final Scoreboard Output
 
-![Scoreboard Report(assets/Scoreboard.png)
+![Simulation Waveform](assets/Scoreboard.png)
 
 
 ### Expected report highlights
