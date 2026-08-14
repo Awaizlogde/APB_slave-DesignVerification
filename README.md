@@ -1,6 +1,6 @@
 # AMBA APB Slave — SystemVerilog RTL & Verification
 
-> A complete SystemVerilog verification project for an **AMBA APB Slave**, including synthesizable RTL, constrained-random stimulus, APB master-style driving, passive monitoring, a reference-model scoreboard, error checking, and event-based test completion.
+> A complete SystemVerilog verification project for an **AMBA APB Slave**, including synthesizable RTL, constrained-random stimulus and directed, APB master-style driving, passive monitoring, a reference-model scoreboard, error checking, and event-based test completion.
 
 ---
 
@@ -691,20 +691,8 @@ The read data is not considered valid when an error response is asserted.
 
 ## 📊 Final Scoreboard Output
 
-**Insert your scoreboard screenshot below.**
+![Scoreboard Report(assets/scoreboard.png)
 
-> **Screenshot placeholder**
-
-```text
-┌────────────────────────────────────────────────────────────┐
-│                                                            │
-│                  SCOREBOARD REPORT                         │
-│                                                            │
-│              INSERT SCREENSHOT HERE                        │
-│                                                            │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
-```
 
 ### Expected report highlights
 
@@ -720,20 +708,8 @@ The read data is not considered valid when an error response is asserted.
 
 ## 🌊 APB Waveform
 
-**Insert your waveform screenshot below.**
+![Simulation Waveform](assets/waveform.png)
 
-> **Screenshot placeholder**
-
-```text
-┌────────────────────────────────────────────────────────────┐
-│                                                            │
-│                     APB WAVEFORM                           │
-│                                                            │
-│              INSERT WAVEFORM IMAGE HERE                    │
-│                                                            │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
-```
 
 ### Signals to show
 
@@ -775,7 +751,7 @@ PSLVERR = 1
 
 ---
 
-# 13. Example Verification Flow
+# 13. Verification Flow
 
 ```text
                     TRANSACTION
