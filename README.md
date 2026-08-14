@@ -691,7 +691,7 @@ The read data is not considered valid when an error response is asserted.
 
 ## 📊 Final Scoreboard Output
 
-![Scoreboard Report(assets/scoreboard.png)
+![Scoreboard Report(assets/Scoreboard.png)
 
 
 ### Expected report highlights
